@@ -3,8 +3,8 @@ class Solution:
         if len(s) != len(t):
             return False
             
-        return sorted(s) == sorted(t)
+        return sorted(s) == sorted(t) // checks to see if they anagrams and returns true
 
 
 
-comments: 
+comments: This approach checks if two strings are anagrams using sorting 
